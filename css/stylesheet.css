@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'MarkPro';
+  src: url('../fonts/MarkPro.eot');
+  src: url('../fonts/MarkPro.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MarkPro.svg') format('svg'),
+    url('../fonts/MarkPro.woff') format('woff'),
+    url('../fonts/MarkPro.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MarkPro-Heavy';
+  src: url('../fonts/MarkPro-Heavy.eot');
+  src: url('../fonts/MarkPro-Heavy.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MarkPro-Heavy.svg') format('svg'),
+    url('../fonts/MarkPro-Heavy.woff') format('woff'),
+    url('../fonts/MarkPro-Heavy.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MarkPro-Thin';
+  src: url('../fonts/MarkPro-Thin.eot');
+  src: url('../fonts/MarkPro-Thin.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MarkPro-Thin.svg') format('svg'),
+    url('../fonts/MarkPro-Thin.woff') format('woff'),
+    url('../fonts/MarkPro-Thin.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+} 
+
+.top-section {
+  height: 60%;
+  text-align: left;
+  color: white;
+}
+
+.top-section > img {
+  width: 100%;
+  height: 60%;
+}
+
+.top {
+  position: absolute;
+  color: white;
+  left: 5%;
+}
+p.top {
+  top: 34%;
+}
+
+h1 {
+  font-size: 4em;
+  top: 10%;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+
+.middle-section {
+  background-color: white;
+  height: 20%;
+  color: black;
+  text-align: center;
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
+
+.middle-section > img {
+  width: 8%;
+  display: inline-block;
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
+
+.bottom-section {
+  background-color: rgb(241, 240, 239);
+  color: black;
+  height: 20%;
+  text-align: center;
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
+
+.icon {
+  margin-top: 2em;
+  display: inline-block;
+}
+
+.form-control {
+  display: inline-block;
+  width: 20%;
+
+}
