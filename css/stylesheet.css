@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: 'MarkPro';
   src: url('../fonts/MarkPro.eot');
@@ -74,6 +75,7 @@ p {
 .main {
   display: inline-block; 
   padding-bottom: 2em;
+  width: 15%;
 }
 
 .bottom-section {
