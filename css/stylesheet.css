@@ -50,12 +50,12 @@
 
 .top-text {
   position: absolute;
-  left: 2em;
-  top: 3em;
+  left: 1.5em;
+  top: 2.5em;
 }
 
-h1.top-text {
-  font-size: 2em;
+h1 {
+  font-size: 4em;
 }
 
 p {
@@ -85,7 +85,7 @@ p {
   width: 100%;
   text-align: center;
   padding-bottom: 2em;
-  padding-top: 2em;
+  padding-top: 2.5em;
 }
 
 .icon {
