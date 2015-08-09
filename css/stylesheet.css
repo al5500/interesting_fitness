@@ -34,12 +34,14 @@
   padding: 0 0 0 0;
   height: 100%;
   width: 100%;  
+  max-height: 100%;
 }
 
 .top-section {
-  height: 60%;
+  max-height: 60%;
   text-align: left;
   color: white;
+  height: 60%;
 
 }
 
@@ -54,18 +56,25 @@
   top: 2.5em;
 }
 
+.top-text > p {
+  font-family: 'MarkPro-Thin'
+}
+
 h1 {
   font-size: 4em;
+  font-family: 'MarkPro-Heavy';
 }
 
 p {
   font-size: 1.5em;
+  font-family: 'MarkPro';
 }
+
 
 
 .middle-section {
   background-color: white;
-  height: 20%;
+  height: 13em;
   color: black;
   text-align: center;
   padding-bottom: 2em;
@@ -75,13 +84,13 @@ p {
 .main {
   display: inline-block; 
   padding-bottom: 2em;
-  width: 15%;
+  width: 5em;
 }
 
 .bottom-section {
   background-color: rgb(241, 240, 239);
   color: black;
-  height: 20%;
+  height: 13em;
   width: 100%;
   text-align: center;
   padding-bottom: 2em;
@@ -89,13 +98,12 @@ p {
 }
 
 .icon {
-  margin-top: 2em;
+  padding-top: 1.3em;
   display: inline-block;
 }
 
 .form-control {
   display: inline-block;
   width: 20em;
-
 }
 
