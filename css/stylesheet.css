@@ -29,10 +29,17 @@
   font-style: normal;
 } 
 
+.container-fluid {
+  padding: 0 0 0 0;
+  height: 100%;
+  width: 100%;  
+}
+
 .top-section {
   height: 60%;
   text-align: left;
   color: white;
+
 }
 
 .top-section > img {
@@ -40,18 +47,14 @@
   height: 60%;
 }
 
-.top {
+.top-text {
   position: absolute;
-  color: white;
-  left: 5%;
-}
-p.top {
-  top: 34%;
+  left: 2em;
+  top: 3em;
 }
 
-h1 {
-  font-size: 4em;
-  top: 10%;
+h1.top-text {
+  font-size: 2em;
 }
 
 p {
@@ -68,17 +71,16 @@ p {
   padding-top: 2em;
 }
 
-.middle-section > img {
-  width: 8%;
-  display: inline-block;
+.main {
+  display: inline-block; 
   padding-bottom: 2em;
-  padding-top: 2em;
 }
 
 .bottom-section {
   background-color: rgb(241, 240, 239);
   color: black;
   height: 20%;
+  width: 100%;
   text-align: center;
   padding-bottom: 2em;
   padding-top: 2em;
@@ -94,3 +96,4 @@ p {
   width: 20%;
 
 }
+
